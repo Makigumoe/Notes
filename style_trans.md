@@ -1,4 +1,4 @@
-### A Dual Reinforcement Learning Framework for Unsupervised Text Style Transfer
+### [A Dual Reinforcement Learning Framework for Unsupervised Text Style Transfer](https://arxiv.org/pdf/1905.10060.pdf)
 
 非平行数据。通过从x转换到y'，再从y'转换到x'。使用了两个loss，一个衡量y'与目标风格的相似度（风格迁移），另一个衡量x'与x的相似度（内容保留）。
 
