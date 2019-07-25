@@ -6,3 +6,7 @@
 
 其中，style classifer是pretrain的二分类器，在训练过程中固定。content的做法：*Therefore, we can estimate how much the content preserved in y0 by means of the probability that the model g reconstructs x when taking y0
 as input.*
+
+### [Controllable Unsupervised Text Attribute Transfer via Editing Entangled Latent Representation](https://arxiv.org/pdf/1905.12926.pdf)
+
+分为3个部分。z=Encoder(x)；y=Classifier(z);x'=Decoder(z)。encoder是基于transformer的。
